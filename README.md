@@ -5,3 +5,4 @@ This repository contains my reimplementation in Rust, which is faster than FGS 1
 The output is not identical to FGS 1.31, it's closer to 1.30, which I believe is more correct.
 
 The original FGS is licensed under GPL3, so is this repository.
+This repository contains train files from the original FragGeneScan.
