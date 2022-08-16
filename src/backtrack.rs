@@ -80,7 +80,7 @@ impl<'a> CalculatedViterbi<'a> {
         };
 
         let execute = |orf_inv_off: usize,
-                       iterator: Box<dyn Iterator<Item = (usize, &'a [u8])> + 'a>|
+                       iterator: Box<dyn Iterator<Item = (usize, &[u8])> + '_>|
          -> isize {
             let mut e_save = f64::MAX;
             let mut s_save = 0isize;
